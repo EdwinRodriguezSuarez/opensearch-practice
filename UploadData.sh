@@ -1,0 +1,1 @@
+curl -X POST "https://localhost:9200/practice/_bulk" -ku admin:admin -H 'Content-Type: application/json' --data-binary "@practice.json"
