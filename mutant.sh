@@ -1,0 +1,1 @@
+curl https://localhost:9200 -ku 'admin:admin'
