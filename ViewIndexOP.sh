@@ -1,0 +1,1 @@
+curl -X GET  "https://localhost:9200/_cat/indices?v" -ku 'admin:admin' -H 'Content-Type: application/json'
