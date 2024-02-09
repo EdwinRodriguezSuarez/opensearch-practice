@@ -1,0 +1,5 @@
+opensearch_security:
+  ssl:
+    transport:
+      keystore_filepath: "/usr/share/elasticsearch/config/certs/node.keystore"
+      truststore_filepath: "/usr/share/elasticsearch/config/certs/truststore.keystore"
