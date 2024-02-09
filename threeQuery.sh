@@ -1,0 +1,1 @@
+curl -XPOST https://localhost:9200/_plugins/_sql -u 'admin:admin' -k -H 'Content-Type: application/json' -d '{"query": "SELECT * FROM practice* LIMIT 50"}'
